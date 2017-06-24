@@ -6,6 +6,8 @@ import './main.html';
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);
+
+  this.blockNumber = web3.eth.getBlockNumber();
 });
 
 Template.hello.helpers({

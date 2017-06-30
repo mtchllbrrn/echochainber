@@ -2,7 +2,7 @@
   "name": "echochainber",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor --settings settings.json run",
     "geth-dev": "geth --dev --rpc --ipcpath ../testchain/geth.ipc --datadir ../testchain/ --rpccorsdomain \"*\""
   },
   "dependencies": {

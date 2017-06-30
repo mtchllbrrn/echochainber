@@ -1,0 +1,4 @@
+{
+  "CONTRACT_ADDR": "0xb66f641a496750390870777b660b626b9706040a",
+  "CONTRACT_ABI": [{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"echoes","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"message","type":"string"}],"name":"speak","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"numEchoes","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"echo","type":"string"}],"name":"logEcho","type":"event"}]
+}
